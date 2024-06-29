@@ -11,4 +11,5 @@
     <color name="blue_A">#1D2331</color>
     <color name="grey_T">#f0f0f0</color>
     <color name="bottom_icon_color_disabled">#90939a</color>
+    <color name="disabled_button_color">#DFE0E2</color>
 </resources>
