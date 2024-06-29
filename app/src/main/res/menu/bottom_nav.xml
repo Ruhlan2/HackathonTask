@@ -4,25 +4,25 @@
     <item
         android:id="@+id/homeFragment"
         android:icon="@drawable/home"
-        android:title="Əsas" />
+        android:title="@string/main" />
 
     <item
         android:id="@+id/exploreFragment"
         android:icon="@drawable/pay"
-        android:title="Ödənişlər" />
+        android:title="@string/payments" />
 
     <item
         android:id="@+id/movieAiFragment"
         android:icon="@drawable/qr_code_icon"
-        android:title="QR" />
+        android:title="@string/qr" />
 
     <item
         android:id="@+id/favoritesFragment"
         android:icon="@drawable/history_icon"
-        android:title="Tarixçə" />
+        android:title="@string/history" />
 
     <item
         android:id="@+id/profileFragment"
         android:icon="@drawable/user_icon"
-        android:title="Profilim" />
+        android:title="@string/profile" />
 </menu>

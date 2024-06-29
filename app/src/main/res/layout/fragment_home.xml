@@ -43,7 +43,7 @@
 
                 <com.google.android.material.button.MaterialButton
                     style="@style/Widget.Material3.Button.IconButton"
-                    android:layout_width="wrap_content"
+                    android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     app:icon="@drawable/down_icon"
@@ -101,7 +101,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/roboto"
-                            android:text="m 10 balansım"
+                            android:text="@string/balance"
                             android:textColor="@color/grey_B"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent" />
@@ -111,7 +111,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/montserrat_semibold"
-                            android:text="0.00"
+                            android:text="@string/customer_balance"
                             android:textColor="@color/button_color"
                             android:textSize="40sp"
                             app:layout_constraintBottom_toBottomOf="parent"
@@ -154,7 +154,7 @@
                             android:layout_weight="1"
                             android:backgroundTint="@color/button_color"
                             android:paddingVertical="15dp"
-                            android:text="Balans artımı"
+                            android:text="@string/top_up"
                             app:cornerRadius="10dp"
                             app:icon="@drawable/add_icon" />
 
@@ -166,7 +166,7 @@
                             android:layout_weight="1.5"
                             android:backgroundTint="@color/button_color"
                             android:paddingVertical="15dp"
-                            android:text="Köçürmək"
+                            android:text="@string/transfer"
                             app:cornerRadius="10dp"
                             app:icon="@drawable/right_arrow_icon" />
 
@@ -223,7 +223,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_margin="10dp"
                                     android:fontFamily="@font/roboto_medium"
-                                    android:text="m10 ilə\nqazandığım"
+                                    android:text="@string/earned_with_m10"
                                     android:textColor="@color/button_color"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -233,7 +233,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_margin="10dp"
                                     android:fontFamily="@font/roboto_medium"
-                                    android:text="976.45 ₼"
+                                    android:text="@string/other_balance"
                                     android:textColor="@color/button_color"
                                     android:textSize="20sp"
                                     app:layout_constraintBottom_toBottomOf="parent"
@@ -263,7 +263,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_margin="10dp"
                                     android:fontFamily="@font/roboto_medium"
-                                    android:text="Aksiyalar və\npartnoylar"
+                                    android:text="@string/partners"
                                     android:textColor="@color/button_color"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -330,7 +330,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_margin="10dp"
                                     android:fontFamily="@font/roboto_medium"
-                                    android:text="m10 ilə\nqazandığım"
+                                    android:text="@string/earned_with_m10"
                                     android:textColor="@color/button_color"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -370,7 +370,7 @@
                                     android:layout_height="wrap_content"
                                     android:layout_margin="10dp"
                                     android:fontFamily="@font/roboto_medium"
-                                    android:text="Aksiyalar və\npartnoylar"
+                                    android:text="@string/partners"
                                     android:textColor="@color/button_color"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />

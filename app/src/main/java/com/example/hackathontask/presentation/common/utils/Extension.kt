@@ -3,12 +3,14 @@ package com.example.hackathontask.presentation.common.utils
 import android.app.Dialog
 import android.content.Context
 import android.view.LayoutInflater
+import androidx.annotation.StringRes
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.hackathontask.databinding.TermsDialogBinding
 import com.example.hackathontask.presentation.common.base.setSafeOnClickListener
 
 fun Context.createTermsAndConditionDialog(
-    onConfirmOnClick: () -> Unit
+    onConfirmOnClick: () -> Unit,
+    @StringRes term: Int
 ): Dialog {
     val dialog = Dialog(this, androidx.appcompat.R.style.Theme_AppCompat_Dialog)
     val binding = TermsDialogBinding.inflate(LayoutInflater.from(this))
@@ -28,6 +30,7 @@ fun Context.createTermsAndConditionDialog(
         buttonConfirm.setSafeOnClickListener {
             onConfirmOnClick()
         }
+        textTerms.text = getString(term)
     }
 
     return dialog
