@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green_A">#02EDC2</color>
+    <color name="button_color">#1D2333</color>
+    <color name="grey_A">#bdc3dd</color>
+    <color name="grey_B">#8E9198</color>
+    <color name="grey_C">#ADB0B5</color>
+    <color name="grey_D">#F7F6FE</color>
+    <color name="blue_A">#1D2331</color>
+    <color name="grey_T">#f0f0f0</color>
+    <color name="bottom_icon_color_disabled">#90939a</color>
+</resources>
